@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*
 class AdminController(
 ) {
 
-    @GetMapping("/report")
+    @GetMapping("/reports")
     fun report(): String {
         return "this is a report only for admin"
     }
